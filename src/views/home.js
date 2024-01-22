@@ -13,31 +13,6 @@ import apiClient from '../api-client/auth-client'
 
 
 const Home = (props) => {
-  const { user } = useUser();
-
-
-  const homePageValidation = async () => {
-    try {
-      let token = localStorage.getItem('usertoken')
-      const result = await apiClient.validuser(token)
-      if (result.status == 401 || !result) {
-        history("*");
-      } else {
-        console.log("user verify");
-        setLoginData(result)
-        history("/home");
-      }
-    } catch (error) {
-      console.log(error)
-    }
-  }
-  useEffect(() => {
-    setTimeout(() => {
-      homePageValidation();
-      setData(true)
-    }, 2000)
-
-  }, [])
   return (
     <div className="home-container">
       <Helmet>
