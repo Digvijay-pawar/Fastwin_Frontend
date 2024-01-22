@@ -31,7 +31,7 @@ const App = () => {
           <Route component={Recharge} exact path="/recharge" />
           <Route component={Home} exact path="/" />
 
-          <Route component={Home} exact path="/home" />
+          <Route component={Login} exact path="/login" />
           <Route component={CreateAccount} exact path="/create-account" />
           <Route component={Invite} exact path="/invite" />
           <Route component={My} exact path="/my" />
