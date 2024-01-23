@@ -85,13 +85,6 @@
   height: 50%;
   position: absolute;
 }
-.my-icon04 {
-  top: 5px;
-  left: 330px;
-  width: 15px;
-  height: 50%;
-  position: absolute;
-}
 .my-li1 {
   height: 39px;
   padding: var(--dl-space-space-halfunit);
@@ -106,7 +99,7 @@
   border-right-width: 0px;
   border-bottom-width: 1px;
 }
-.my-icon06 {
+.my-icon04 {
   top: 5px;
   left: 0px;
   width: 24px;
@@ -122,7 +115,7 @@
   position: absolute;
   vertical-align: middle;
 }
-.my-icon08 {
+.my-icon06 {
   top: 5px;
   left: 330px;
   width: 15px;
@@ -150,14 +143,14 @@
   position: absolute;
   vertical-align: middle;
 }
-.my-icon10 {
+.my-icon08 {
   top: 5px;
   left: 0px;
   width: 24px;
   height: 24px;
   position: absolute;
 }
-.my-icon12 {
+.my-icon10 {
   top: 5px;
   left: 330px;
   width: 15px;
@@ -186,14 +179,14 @@
   position: absolute;
   vertical-align: middle;
 }
-.my-icon14 {
+.my-icon12 {
   top: 5px;
   left: 0px;
   width: 24px;
   height: 24px;
   position: absolute;
 }
-.my-icon16 {
+.my-icon14 {
   top: 5px;
   left: 330px;
   width: 15px;
@@ -222,14 +215,14 @@
   position: absolute;
   vertical-align: middle;
 }
-.my-icon18 {
+.my-icon16 {
   top: 5px;
   left: 0px;
   width: 24px;
   height: 24px;
   position: absolute;
 }
-.my-icon20 {
+.my-icon18 {
   top: 5px;
   left: 330px;
   width: 15px;
@@ -259,7 +252,7 @@
   flex-direction: column;
   background-color: var(--dl-color-primary-700);
 }
-.my-icon22 {
+.my-icon20 {
   width: 50px;
   height: 46px;
 }
@@ -350,6 +343,7 @@
 }
 @media(max-width: 479px) {
   .my-container1 {
+    width: 95%;
     height: 88vh;
   }
   .my-container2 {
@@ -362,18 +356,45 @@
     border-bottom-left-radius: var(--dl-radius-radius-radius8);
     border-bottom-right-radius: var(--dl-radius-radius-radius8);
   }
+  .my-container3 {
+    width: 95%;
+    height: 337px;
+  }
+  .my-icon02 {
+    left: 250px;
+  }
+  .my-icon06 {
+    left: 250px;
+  }
+  .my-icon10 {
+    left: 250px;
+  }
+  .my-icon14 {
+    top: 5px;
+    left: 250px;
+    right: 12px;
+  }
+  .my-icon18 {
+    left: 250px;
+  }
+  .my-link {
+    left: 147px;
+    bottom: -22px;
+  }
   .my-container4 {
     top: 24px;
-    left: 67px;
-    width: 338px;
+    left: 0px;
+    right: 0px;
+    width: 95%;
     height: 110px;
+    margin: auto;
     padding: var(--dl-space-space-unit);
     position: absolute;
     border-width: 0px;
     border-radius: var(--dl-radius-radius-radius8);
     background-color: rgba(105, 198, 232, 1);
   }
-  .my-icon22 {
+  .my-icon20 {
     width: 50px;
     height: 42px;
   }
@@ -423,6 +444,7 @@
     font-weight: 500;
   }
   .my-container5 {
+    width: 95%;
     height: 14vh;
     margin-top: 0px;
     padding-left: var(--dl-space-space-twounits);
